@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # ======== KONFIGURACJA UPDATERA ========
 
-GITHUB_CLIENT_URL = "https://raw.githubusercontent.com/USER/REPO/main/main.py"
+GITHUB_CLIENT_URL = "https://raw.githubusercontent.com/Colorowyy/App/refs/heads/main/main.py"
 HEADERS = {"User-Agent": "Updater"}
 
 LOCAL_FILE = str(BASE_DIR / "main.py")
